@@ -1,0 +1,69 @@
+{
+  "_comment": "Copy this file to user-settings.json and customize for your family",
+
+  "family": {
+    "name": "Ledebeekweg",
+    "members": [
+      {
+        "id": "parent1",
+        "name": "Ruben",
+        "role": "parent",
+        "color": "#3B82F6"
+      },
+      {
+        "id": "parent2",
+        "name": "Jill",
+        "role": "parent",
+        "color": "#EC4899"
+      },
+      {
+        "id": "child1",
+        "name": "Matteo",
+        "role": "child",
+        "color": "#10B981"
+      }
+    ]
+  },
+
+  "display": {
+    "defaultView": "multiWeek",
+    "theme": "auto",
+    "seasonalThemes": true,
+    "idleTimeout": 120,
+    "idleMode": "photos",
+    "darkModeSchedule": {
+      "enabled": true,
+      "mode": "sunset",
+      "customTimes": {
+        "darkModeStart": "19:00",
+        "lightModeStart": "07:00"
+      }
+    }
+  },
+
+  "integrations": {
+    "googleCalendar": true,
+    "appleCalendar": true,
+    "microsoftToDo": false,
+    "icloudPhotos": false,
+    "onedrive": false,
+    "enphase": false,
+    "sonos": true,
+    "homebridge": false
+  },
+
+  "notifications": {
+    "eventReminders": true,
+    "choreReminders": true,
+    "maintenanceReminders": true,
+    "weatherAlerts": true,
+    "soundEnabled": false
+  },
+
+  "privacy": {
+    "showLocationMap": false,
+    "locationHistoryDays": 7,
+    "photoFaceBlur": false,
+    "hideCalendarInAwayMode": true
+  }
+}

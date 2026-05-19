@@ -254,8 +254,8 @@ export default function RootLayout({
           bg-background
           text-foreground
           min-h-screen
-          md:overflow-hidden
-        `}
+          `}
+          //md:overflow-hidden 
       >
         {/*
           PROVIDERS
