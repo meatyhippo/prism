@@ -62,6 +62,18 @@ markdown_extensions:
 
 plugins:
   - search
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   social:
@@ -70,6 +82,7 @@ extra:
 
 nav:
   - Home: index.md
+  - Screenshots: screenshots.md
   - Get Started:
       - Install: getting-started/install.md
       - First-time setup: getting-started/first-time-setup.md
@@ -81,6 +94,13 @@ nav:
       - Recipes: features/RECIPES.md
       - Tasks: features/TASKS.md
       - Goals: features/GOALS.md
+      - Messages: features/MESSAGES.md
+      - Wishes & Gift Ideas: features/WISHES.md
+      - Photos: features/PHOTOS.md
+      - Travel Map: features/TRAVEL.md
+      - Weekend Ideas: features/WEEKEND.md
+      - Bus Tracking: features/BUS.md
+      - Display Modes: features/DISPLAY-MODES.md
       - Mobile (PWA): features/MOBILE.md
       - Global input: features/global-input-system.md
   - Integrations:
@@ -88,7 +108,7 @@ nav:
       - Home Assistant: home-assistant.md
       - Voice API: voice-api.md
   - Deployment:
-      - Demo deployment: demo-deployment.md
+      - Public demo (self-hosting recipe): demo-deployment.md
   - Releases:
       - Changelog: CHANGELOG.md
 
