@@ -9,6 +9,7 @@
 .env.production.local
 !.env.example
 .claude/settings.local.json
+.continue
 
 # Dependencies
 node_modules/
