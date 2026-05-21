@@ -856,44 +856,8 @@
       }
     ]
   },
-  "referrers": [
-    {
-      "count": 174,
-      "referrer": "reddit.com",
-      "uniques": 62
-    },
-    {
-      "count": 38,
-      "referrer": "github.com",
-      "uniques": 10
-    },
-    {
-      "count": 21,
-      "referrer": "com.reddit.frontpage",
-      "uniques": 12
-    },
-    {
-      "count": 15,
-      "referrer": "community.home-assistant.io",
-      "uniques": 8
-    },
-    {
-      "count": 14,
-      "referrer": "Google",
-      "uniques": 5
-    },
-    {
-      "count": 1,
-      "referrer": "DuckDuckGo",
-      "uniques": 1
-    },
-    {
-      "count": 1,
-      "referrer": "sandydargoport.github.io",
-      "uniques": 1
-    }
-  ],
-  "updated_at": "2026-05-20T06:13:46Z",
+  "referrers": [],
+  "updated_at": "2026-05-21T03:05:29Z",
   "views": {
     "2026-04-14": {
       "count": 64,
